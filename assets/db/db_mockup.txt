@@ -1,0 +1,1 @@
+(firstname, middle-initial, lastname, age of death, gender, date of birth, date of death, birthplace, plotid, remarks)

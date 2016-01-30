@@ -1,0 +1,687 @@
+body {
+
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	font: 100% Helvetica, sans-serif;
+	background-color: #FBD984;
+
+}
+
+nav {
+
+	border-bottom: solid 2px #FBD984;
+	border-bottom-radius: 3px;
+	margin: 0;
+	width: 100%;
+
+}
+
+nav .nav-item {
+
+	transition: visibility .25s linear;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px 10px;
+	background-color: #232223;
+	margin: 0;
+
+}
+
+nav .nav-item a {
+
+	display: inline-block;
+	text-decoration: none;
+	padding: 0;
+	color: #FBD984;
+
+}
+
+nav .nav-item:hover {
+
+	background-color: #515051;
+	transition: 300ms ease-in;
+
+}
+
+nav .nav-item.select {
+
+	background-color: #6B0000;
+	color: #DD9D00;
+
+}
+
+header {
+
+	position: relative;
+	width: 100%;
+	background: #232223;
+	top: 0;
+
+}
+
+.subhead {
+
+	background-color: #5D0000;
+	color: #FBD984;
+	font-size: 3em;
+	text-align: center;
+	position: relative;
+	height: 300px;
+
+}
+
+.subhead .center-wrapper {
+
+	text-align: center;
+	position: relative;
+	margin: auto;
+	top: 30%;
+
+}
+
+.subhead hr {
+
+    height: 30px;
+    width: 700px;
+    border-style: solid;
+    border-color: #FBD984;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+
+}
+
+
+.subhead hr:before {
+
+    display: block;
+    content: "";
+    height: 20px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #FBD984;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+
+}
+
+.panel {
+
+	width: 100%;
+	padding: 40px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+
+}
+
+.image-bank {
+
+	float: right;
+	position: relative;
+	right: 10%;
+	padding: 50px 0px 0px 0px;
+
+}
+
+.image-bank img {
+
+	height: 170px;
+	width: 170px;
+	display: block;
+	padding: 2px;
+	margin: auto;
+
+}
+
+.image-bank.history img {
+
+	width: 400px;
+	height: 200px;
+
+}
+
+.image-bank.chapel img {
+
+	width: 400px;
+	height: 200px;
+
+}
+
+.image-bank.contrib img {
+
+	width: 500px;
+	height: 300px;
+	position: relative;
+	left: 10%;
+
+}
+
+.page {
+
+	background-color: #FBD984;
+	min-height: 100%;
+	position: relative;
+	margin: 0;
+	float: left;
+
+}
+
+.page.rates {
+
+	margin: auto;
+	text-align: center;
+	position: relative;
+	left: 10%;
+
+}
+
+.page.contact {
+
+	margin: auto;
+	text-align: center;
+
+}
+
+.page.contact a {
+
+	color: #D70000;
+
+}
+
+.page .fees {
+
+	text-align: left;
+	padding: 20px 100px 20px 100px;
+
+
+}
+
+.page .fees li .space {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -20%;
+
+}
+
+.page .fees li .space1 {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -57%;
+
+}
+
+.page .fees li .space2 {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -33%;
+
+}
+
+.page .fees li .space3 {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -68%;
+
+}
+
+.page .fees li .space4 {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -55.5%;
+
+}
+
+.page .fees li .space5 {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -33%;
+
+}
+
+.page .fees li .space6 {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -33.3%;
+
+}
+
+.page .fees li .space7 {
+
+		display: inline-block;
+		text-align: right;
+		position: relative;
+		right: -58.5%;
+
+}
+
+.page .container{
+
+	text-align: left;
+	color: #923600;
+	padding: 20px 100px 20px 50px;
+	width: 500px;
+
+}
+
+.page .container.rates {
+
+	position: relative;	
+	text-align: left;
+	padding: 20px 100px 20px 100px;
+	left: 15%;
+
+}
+
+.page .container.history {
+
+	position: relative;
+	padding: 80px 100px 80px 100px;
+
+}
+
+.page .container.contact {
+
+	position: relative;
+	text-align: center;
+	left: 40%;
+
+}
+
+.page hr {
+
+	height: 30px;
+    width: 300px;
+    border-style: solid;
+    border-color: #770E0E;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+
+}
+
+.page hr:before {
+
+	display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #770E0E;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+
+}
+
+.footer {
+
+	background-color: #171717;
+	height: 50px;
+	position: relative;
+	bottom: 0%;
+	margin: auto;
+
+}
+
+.footer .hitbox {
+
+	height: 15px;
+	width: 83px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.nav-side {
+
+	visibility: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	max-width: 250px;
+	z-index: 1000;
+	background-color: #232223;
+	box-sizing: border-box;
+	padding: 20px;
+	color: #FBD984;
+	margin-left: -250px;
+	transition: margin 200ms ease-in-out;
+
+}
+
+.nav-toggle {
+
+	visibility: hidden;
+	position: absolute;
+	right: -40px;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	background-color: #232223;
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	border-bottom-right-radius: 3px;
+	box-shadow: 1px 0 3px rgba(0,0,0,0.1);
+
+}
+
+.nav-side .nav-item {
+
+	text-align: center;
+	position: relative;
+	top: 5%;
+	padding: 20px;
+	border-bottom: 0.5px solid #FBD984;
+	width: auto;
+
+}
+
+.nav-side .nav-item a {
+
+	text-decoration: none;
+	color: #FBD984;
+	margin: 0;
+	width: auto;
+
+}
+
+.nav-side .nav-item.select {
+
+	background-color: #6B0000;
+	color: #DD9D00;
+	z-index: 1000;
+
+}
+
+.nav-side .nav-item:hover {
+
+	background-color: #515051;
+	transition: 300ms ease-in;
+
+}
+
+.nav-toggle:before {
+
+	content: "\2192";
+	font-weight: 600;
+	color: #fff;
+
+}
+
+.nav-side.nav-open {
+	margin-left: 0;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.nav-side.nav-open .nav-toggle:before {
+
+	content: "\2190";
+
+}
+
+.pagination {
+
+	font-weight: bold;
+
+}
+
+.modal {
+
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: 50px;
+	width: 70%;
+	max-width: 700px;
+	height: 350px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 8px rgba(0,0,0,0.6);
+	transform: translate(-50%, 0);
+	z-index: 2000;
+
+}
+
+@media screen and (max-width: 480px){
+
+	nav {
+
+		display: none;
+		transition: 400ms ease-in-out;
+
+	}
+
+	.nav-side, .nav-toggle{
+		visibility: visible;
+		transition: 400ms ease-in-out;
+	}
+
+	.panel {
+
+		margin: 0;
+		padding: 20px 0px 20px 0px;
+
+	}
+
+	.page .container {
+
+		width: 300px;
+		text-align: center;
+		padding: 30px 100px 30px 70px;
+		margin: auto;
+
+	}
+
+	.page .fees {
+
+		text-align: left;
+		padding: 20px 100px 20px 100px;
+		position: relative;
+		left: -15%;
+
+	}
+
+	.page .container.rates {
+
+		position: relative;	
+		text-align: left;
+		padding: 20px 100px 20px 100px;
+		left: -15%;
+
+	}
+
+	.page .container.history {
+
+		position: relative;
+		padding: 20px 100px 20px 100px;
+		left: -9%;
+
+	}
+
+	.page .container.contact {
+
+		position: relative;
+		text-align: center;
+		left: -2%;
+
+	}
+
+	.image-bank {
+
+		padding: 50px 0px 50px 0px;
+		position: relative;
+		left: -9%;
+
+	}
+
+	.image-bank.history {
+
+		position: relative;
+		left: -15%;
+
+	}
+
+	.image-bank.contrib {
+
+		position: relative;
+		left: -18%;
+
+	}
+
+	.image-bank.history img {
+
+		width: 300px;
+		height: 150px;
+		transition: height 200ms ease-in-out;
+		transition: width 200ms ease-in-out;
+
+	}
+
+	.image-bank.chapel img {
+
+		width: 300px;
+		height: 150px;
+		transition: height 200ms ease-in-out;
+		transition: width 200ms ease-in-out;
+
+	}
+
+	.image-bank.contrib img {
+
+		width: 300px;
+		height: 150px;
+		transition: height 200ms ease-in-out;
+		transition: width 200ms ease-in-out;
+
+	}
+
+	.subhead .center-wrapper{
+
+		top: 10%;
+
+
+	}
+
+	.subhead hr {
+
+	    height: 30px;
+	    width: 300px;
+	    border-style: solid;
+	    border-color: #FBD984;
+	    border-width: 1px 0 0 0;
+	    border-radius: 20px;
+
+	}
+
+	.subhead hr:before {
+
+	    display: block;
+	    content: "";
+	    height: 20px;
+	    margin-top: -31px;
+	    border-style: solid;
+	    border-color: #FBD984;
+	    border-width: 0 0 1px 0;
+	    border-radius: 20px;
+
+	}
+
+		.page .fees li .space {
+
+			display: inline-block;
+			text-align: right;
+			position: relative;
+			right: 0;
+			border: 1px solid #000;
+			border-radius: 3px;
+
+		}
+
+			.page .fees li .space1 {
+
+				position: relative;
+				right: 0;
+				border: 1px solid #000;
+				border-radius: 3px;
+
+			}
+
+			.page .fees li .space2 {
+
+				position: relative;
+				right: 0;
+				border: 1px solid #000;
+				border-radius: 3px;
+
+			}
+
+			.page .fees li .space3 {
+
+				position: relative;
+				right: 0;
+				border: 1px solid #000;
+				border-radius: 3px;
+
+			}
+
+			.page .fees li .space4 {
+
+				position: relative;
+				right: 0;
+				border: 1px solid #000;
+				border-radius: 3px;5%;
+
+			}
+
+			.page .fees li .space5 {
+
+				position: relative;
+				right: 0;
+				border: 1px solid #000;
+				border-radius: 3px;
+
+			}
+
+			.page .fees li .space6 {
+
+				position: relative;
+				right: 0;
+				border: 1px solid #000;
+				border-radius: 3px;
+
+			}
+
+			.page .fees li .space7 {
+
+				position: relative;
+				right: 0;
+				border: 1px solid #000;
+				border-radius: 3px;
+
+			}
+
+
+{	
