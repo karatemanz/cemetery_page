@@ -22,25 +22,25 @@
 
 	<header>
 		<nav class="navbar">
-			<div class="nav-item"><a href="www.rehobothcemetery.org/">Rehoboth Cemetery</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/rates.html">Rates</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/history.html">History</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/chapel.html">Chapel</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/contributions.html">Contributions</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/search.php">Search</a></div>
-			<div class="nav-item select"><a href="www.rehobothcemetery.org/contactus.html">ContactUs</a></div>
+			<div class="nav-item"><a href="/">Rehoboth Cemetery</a></div>
+			<div class="nav-item"><a href="/rates.html">Rates</a></div>
+			<div class="nav-item"><a href="/history.html">History</a></div>
+			<div class="nav-item"><a href="/chapel.html">Chapel</a></div>
+			<div class="nav-item"><a href="/contributions.html">Contributions</a></div>
+			<div class="nav-item"><a href="/search.php">Search</a></div>
+			<div class="nav-item select"><a href="/contactus.html">ContactUs</a></div>
 		</nav>
 
 		<div class="nav-side">
-			Rehobeth Cemetery
+			<div class="top-label">Rehoboth Cemetery</div>
 			<a class="nav-toggle" href="#"></a>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/">Home</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/rates.html">Rates</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/history.html">History</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/chapel.html">Chapel</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/contributions.html">Contributions</a></div>
-			<div class="nav-item"><a href="www.rehobothcemetery.org/search.php">Search</a></div>
-			<div class="nav-item select"><a href="www.rehobothcemetery.org/contactus.html">ContactUs</a></div>		
+			<div class="nav-item"><a href="/">Home</a></div>
+			<div class="nav-item"><a href="/rates.html">Rates</a></div>
+			<div class="nav-item"><a href="/history.html">History</a></div>
+			<div class="nav-item"><a href="/chapel.html">Chapel</a></div>
+			<div class="nav-item"><a href="/contributions.html">Contributions</a></div>
+			<div class="nav-item"><a href="/search.php">Search</a></div>
+			<div class="nav-item select"><a href="/contactus.html">ContactUs</a></div>		
 		</nav>
 	</header>
 
@@ -48,7 +48,7 @@
 
 	<div class="subhead">
 		<div class="center-wrapper">
-			Rehobeth Cemetery Association
+			Rehoboth Cemetery Association
 			<hr>
 		</div>
 	</div>
@@ -97,17 +97,35 @@
 		        <hr>
 			</div>
 
+		<div class="email-container">
+			<!-- <h3>You may contact us here if you'd like!</h3> -->
+			<h3>WORK IN PROGRESS</h3>
+	    <form action="assets/app/sendmail.php" method="POST">
+		    <label for="sender">What is your name?</label><br>
+		    <input type="text" name="sender" size="30" maxlength="30" id="sender" class="email-inputs">
+		    <br><br>
+		    <label for="email">What is your email?</label><br>
+		    <input type="text" name="respondto" size="30" maxlength="30" id="email" class="email-inputs">
+		    <br><br>
+		    <label for="subject">Subject?</label><br>
+		    <input type="text" name="subject" size="60" maxlength="60" id="subject" class="email-inputs">
+		    <br><br>
+		    <label for="msg">Please type your message below:</label><br>
+		    <br><br>
+		    <textarea class="contact-text" name="msg" rows="5" cols="60" id="msg"></textarea>
+		    <br><br>
+    		<input class="contact-submit" type="submit" value="Submit">
+  		</form>
+
+
 		</div>
 
+		</div>
+	
 <!-- \/\/\/\/\/\/\//\/\/\/ BELOW IS GENERIC MULTI-PAGE CODE \/\/\/\/\/\/\/\/\/\/\/ -->
 </div>
 
-	<div class="footer">
-		<div class="hitbox">
-			<a href="http://www.simplehitcounter.com" target="_blank">
-			<img src="http://simplehitcounter.com/hit.php?uid=1844579&f=0&b=16777215">
-		</div>
-	</div>
+	<div class="footer"></div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="assets/js/slide.js"></script>
